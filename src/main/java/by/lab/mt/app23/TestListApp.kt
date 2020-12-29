@@ -27,7 +27,7 @@ class TestListApp : Application() {
         CityDao = Room.databaseBuilder(
             applicationContext,
             CitiesDatabase::class.java,
-            "weather.db")
+            "city.db")
             .build()
             .getFavoritesDao()
     }
